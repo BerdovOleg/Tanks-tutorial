@@ -8,24 +8,21 @@ public class bullet : MonoBehaviour
     [Range(-1, 1)] [SerializeField] float Xspeed;
     [Range(-1, 1)] [SerializeField] float Yspeed;
 
-    private Vector2 direction;
+    [SerializeField] private Vector2 direction;
     // Start is called before the first frame update
     void Start()
     {
-        Xspeed = 50f;
-        Destroy(gameObject,10f);
-        direction = GetComponentInParent<Rigidbody2D>().velocity;
+        //Destroy(gameObject,10f);        
     }
     private void FixedUpdate()
     {
-        GetComponent<Rigidbody2D>().velocity = direction;
-        Debug.Log(GetComponent<Rigidbody2D>().velocity);
+               
     }
 
     // Update is called once per frame
     void Update()
     {
-       //GetComponent<Rigidbody2D>().AddForce(new Vector2(Xspeed, Yspeed), ForceMode2D.Impulse);
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -33,6 +30,7 @@ public class bullet : MonoBehaviour
         if (collision.tag != "Player")
         {
             Destroy(gameObject);//Git Test
+            Destroy(collision.gameObject);
         }
         
     }
