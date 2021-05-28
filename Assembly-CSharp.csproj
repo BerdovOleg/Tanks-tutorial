@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\tankControl.cs" />
     <Compile Include="Assets\Scripts\bullet.cs" />
+    <Compile Include="Assets\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\BlastWave.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -21,6 +21,9 @@ public class tankControl : MonoBehaviour
     [SerializeField] Transform _gunPOs;
     [Range(0,10)][SerializeField]float bullSpeed = 1f;
 
+    //анимация и эфекты
+    [SerializeField] GameObject tracks;
+
 
     // Start is called before the first frame update
     void Start()
