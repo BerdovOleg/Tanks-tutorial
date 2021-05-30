@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637576375340816110
-    m_Hash: 3119708035
+      ticks: 637577927880000000
+    m_Hash: 2053551833
   m_LockFileStatus:
     m_FilePath: D:/Project/Development/Game/Unity/Tanks-tutorial/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637576375340816110
-    m_Hash: 4025997024
+      ticks: 637577927880000000
+    m_Hash: 2154220959
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

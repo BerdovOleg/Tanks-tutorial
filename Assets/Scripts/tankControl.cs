@@ -13,19 +13,25 @@ public class tankControl : MonoBehaviour
     Rigidbody2D shipRb;
     [SerializeField] bool DirectionX;
     [SerializeField] bool DirectionY;
+    [SerializeField] Vector2 Direction;
 
 
     //конфигурация стрельбы
     [SerializeField] GameObject _bullet;
     [SerializeField] Transform _gunPOs;
-    
+    [Range(0,10)][SerializeField]float bullSpeed = 1f;
+
+    //анимация и эфекты
+    [SerializeField] GameObject tracks;
+
 
     // Start is called before the first frame update
     void Start()
     {
-         //shipRb = GetComponent<Rigidbody2D>();
-         transform.Rotate(0, 0, 0);
-         DirectionX = true;
+        shipRb = GetComponent<Rigidbody2D>();
+        transform.Rotate(0, 0, 0);
+        DirectionX = true;
+        Direction = Vector2.up;
     }
 
     // Update is called once per frame
@@ -41,13 +47,30 @@ public class tankControl : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(_bullet, new Vector2(_gunPOs.position.x, _gunPOs.position.y), transform.rotation);
+           GameObject bullet = Instantiate(_bullet, new Vector2(_gunPOs.position.x, _gunPOs.position.y), transform.rotation);
+           Destroy(bullet, 10f);
+            if (Direction == Vector2.up)
+            {
+                bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, bullSpeed), ForceMode2D.Impulse);
+            }
+            else if (Direction == Vector2.down)
+            {
+                bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, -bullSpeed), ForceMode2D.Impulse);
+            }
+            else if (Direction == Vector2.left)
+            {
+                bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(-bullSpeed, 0f), ForceMode2D.Impulse);
+            }
+            else if (Direction == Vector2.right)
+            {
+                bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(bullSpeed, 0f), ForceMode2D.Impulse);
+            }
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Debug.Log(collision.gameObject.name + " : e");
+        Debug.Log(collision.gameObject.name + " : e");
     }
 
     private void ForwardHorizontal()
@@ -62,6 +85,7 @@ public class tankControl : MonoBehaviour
                 if (DirectionY)
                 {
                     transform.rotation = Quaternion.AngleAxis(-90, Vector3.forward);
+                    Direction = Vector2.right;
                 }
             }
             if (H < 0)
@@ -69,7 +93,10 @@ public class tankControl : MonoBehaviour
                 h = transform.position.x - step;
                 DirectionY = false;
                 if (!DirectionY)
+                {
                     transform.rotation = Quaternion.AngleAxis(90, Vector3.forward);
+                    Direction = Vector2.left;
+                }
             }
 
             transform.position = Vector3.Lerp(transform.position, new Vector3(h, transform.position.y, 0f), Time.deltaTime * speed);
@@ -88,6 +115,7 @@ public class tankControl : MonoBehaviour
                 if (DirectionX)
                 {
                     transform.rotation = Quaternion.AngleAxis(360, Vector3.forward);
+                    Direction = Vector2.up;
                 }
             }
             if (V < 0)
@@ -95,7 +123,10 @@ public class tankControl : MonoBehaviour
                 v = transform.position.y - step;
                 DirectionX = false;
                 if (!DirectionX)
+                {
                     transform.rotation = Quaternion.AngleAxis(180, Vector3.forward);
+                    Direction = Vector2.down;
+                }
             }
 
             transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x, v, 0f), Time.deltaTime * speed);

@@ -5,38 +5,19 @@ using UnityEngine;
 [RequireComponent(typeof (Rigidbody2D))]
 public class bullet : MonoBehaviour
 {
-    [Range(-1, 1)] [SerializeField] float Xspeed;
-    [Range(-1, 1)] [SerializeField] float Yspeed;
+    [SerializeField] GameObject _Explosion;
 
-    private Vector2 direction;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Yspeed = 5f;
-        Destroy(gameObject,10f);
-        direction = GetComponentInParent<Rigidbody2D>().velocity;
-    }
-    private void FixedUpdate()
-    {
-        GetComponent<Rigidbody2D>().velocity = direction;
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //if (GetComponent<Rigidbody2D>().velocity.normalized)
-        //{
-            GetComponent<Rigidbody2D>().velocity = new Vector2(Xspeed, Yspeed);
-        //}
-
-    }
+    [SerializeField] GameObject _BlWave;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag != "Player")
-        {
-            Destroy(gameObject);//Git Test
+        if (collision.tag != "Player" & collision.tag != "Effects")
+        {            
+               GameObject _explosion =  Instantiate(_Explosion,new Vector2(collision.transform.position.x, collision.transform.position.y), Quaternion.identity);
+               GameObject _blWave = Instantiate(_BlWave, new Vector2(collision.transform.position.x, collision.transform.position.y), Quaternion.identity);
+               Destroy(_explosion, 0.5f);
+               Destroy(gameObject);
+               Destroy(collision.gameObject);
         }
         
     }
