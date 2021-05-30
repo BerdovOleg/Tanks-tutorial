@@ -12,20 +12,24 @@ public class bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Xspeed = 50f;
+        Yspeed = 5f;
         Destroy(gameObject,10f);
         direction = GetComponentInParent<Rigidbody2D>().velocity;
     }
     private void FixedUpdate()
     {
         GetComponent<Rigidbody2D>().velocity = direction;
-        Debug.Log(GetComponent<Rigidbody2D>().velocity);
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-       //GetComponent<Rigidbody2D>().AddForce(new Vector2(Xspeed, Yspeed), ForceMode2D.Impulse);
+        //if (GetComponent<Rigidbody2D>().velocity.normalized)
+        //{
+            GetComponent<Rigidbody2D>().velocity = new Vector2(Xspeed, Yspeed);
+        //}
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

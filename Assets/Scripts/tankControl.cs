@@ -47,7 +47,7 @@ public class tankControl : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.name + " : e");
+        //Debug.Log(collision.gameObject.name + " : e");
     }
 
     private void ForwardHorizontal()
