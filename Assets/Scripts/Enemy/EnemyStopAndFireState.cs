@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyStopAndFireState : EnemyState
 {
-    public void Enter()
+    public void Enter(EnemyScript Enemy)
     {
         Debug.Log("Enter State StopAndFire");
     }

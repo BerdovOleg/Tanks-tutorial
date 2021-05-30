@@ -10,6 +10,10 @@ public class EnemyScript : MonoBehaviour
 
     [SerializeField]float randomFactor;
 
+    [SerializeField] float moveSpeed = 0.5f;
+
+    bool _direction;
+
 
     void Start()
     {
@@ -37,7 +41,7 @@ public class EnemyScript : MonoBehaviour
         if (this.CurrentState != null) this.CurrentState.Exit();
 
         this.CurrentState = newState;
-        this.CurrentState.Enter();
+        this.CurrentState.Enter(this);
     }
 
     private void SetStateByDefault()
@@ -91,9 +95,25 @@ public class EnemyScript : MonoBehaviour
 
 
 
-    public void MoveToPoint()
-    {
-        float rnd = UnityEngine.Random.Range(0f, randomFactor);
+    public void MoveToPoint()//todo необходимо движение по направлению
+    {  
+        transform.Translate(GetDirection() * moveSpeed * Time.deltaTime);       
     }
-        
+
+    public Vector2 GetDirection()
+    {
+        return _direction ? Vector2.down : Vector2.up;
+        return _direction ? Vector2.left : Vector2.right;
+
+    }
+
+    public void ChangeDir()
+    { 
+        transform.rotation = Quaternion.AngleAxis(transform.rotation.z +90, Vector3.forward);
+    }
+
+    public void Shoot()
+    {
+
+    }
 }

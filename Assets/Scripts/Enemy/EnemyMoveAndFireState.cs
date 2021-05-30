@@ -3,9 +3,17 @@ using System.Collections;
 
 public class EnemyMoveAndFireState : EnemyState
 {
-    public void Enter()
+    private EnemyScript _Enemy;
+
+    private float moveTimer;
+
+    private float moveDuration = 5f;
+
+    public void Enter(EnemyScript Enemy)
     {
         Debug.Log("Enter State MoveAndFire");
+        this._Enemy = Enemy;
+        moveTimer = 0;
     }
 
     public void Exit()
@@ -15,6 +23,17 @@ public class EnemyMoveAndFireState : EnemyState
 
     public void Update()
     {
-        Debug.Log("Update State MoveAndFire");
+        Move();
+    }
+
+    private void Move()
+    {
+        moveTimer += Time.deltaTime;
+        _Enemy.MoveToPoint();
+        //todo animation
+        if (moveTimer >= moveDuration)
+        {
+            _Enemy.SetStateChangeDir();
+        }
     }
 }

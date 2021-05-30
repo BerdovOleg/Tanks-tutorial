@@ -3,9 +3,17 @@ using System.Collections;
 
 public class EnemyIdleState : EnemyState
 {
-    public void Enter()
+    private EnemyScript _Enemy;
+
+    private float idleTimer;
+
+    private float idleDuration =5f;
+
+    public void Enter(EnemyScript Enemy)
     {
         Debug.Log("EnterState Idle");
+        this._Enemy = Enemy;
+        idleTimer = 0;
     }
 
     public void Exit()
@@ -16,5 +24,18 @@ public class EnemyIdleState : EnemyState
     public void Update()
     {
         Debug.Log("Update State Idle");
+        Idel();
+    }
+
+
+    private void Idel()
+    {
+        idleTimer += Time.deltaTime; 
+        //todo animation
+        if (idleTimer>=idleDuration)
+        {
+            _Enemy.SetStateMove();
+        }
+
     }
 }

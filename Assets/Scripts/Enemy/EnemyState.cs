@@ -1,6 +1,6 @@
 public interface EnemyState 
 {
-    void Enter();
+    void Enter(EnemyScript Enemy);
 
     void Exit();
 

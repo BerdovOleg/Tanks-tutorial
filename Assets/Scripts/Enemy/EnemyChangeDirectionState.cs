@@ -3,9 +3,13 @@ using System.Collections;
 
 public class EnemyChangeDirectionState : EnemyState
 {
-    public void Enter()
+    private EnemyScript _Enemy;
+    public void Enter(EnemyScript Enemy)
     {
         Debug.Log("Enter State ChangeDirection");
+        this._Enemy = Enemy;
+        _Enemy.ChangeDir();
+        _Enemy.SetStateStop();
     }
 
     public void Exit()
@@ -17,4 +21,5 @@ public class EnemyChangeDirectionState : EnemyState
     {
         Debug.Log("Update State ChangeDirection");
     }
+
 }
