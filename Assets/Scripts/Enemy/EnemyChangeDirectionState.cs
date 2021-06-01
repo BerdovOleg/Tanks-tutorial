@@ -7,9 +7,9 @@ public class EnemyChangeDirectionState : EnemyState
     public void Enter(EnemyScript Enemy)
     {
         Debug.Log("Enter State ChangeDirection");
-        this._Enemy = Enemy;
-        _Enemy.ChangeDir();
-        _Enemy.SetStateStop();
+        this._Enemy = Enemy;        
+        _Enemy.ChangeDir(Random.Range(0, 3));
+        _Enemy.SetStateIdle();
     }
 
     public void Exit()
@@ -19,7 +19,6 @@ public class EnemyChangeDirectionState : EnemyState
 
     public void Update()
     {
-        Debug.Log("Update State ChangeDirection");
     }
 
 }

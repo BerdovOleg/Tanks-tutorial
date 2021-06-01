@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Effects
+  - PlayerBull
+  - EnemyBull
+  - Enemy
   layers:
   - Default
   - TransparentFX

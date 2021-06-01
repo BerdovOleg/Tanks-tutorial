@@ -24,6 +24,7 @@ public class EnemyMoveAndFireState : EnemyState
     public void Update()
     {
         Move();
+        _Enemy.Shoot();
     }
 
     private void Move()

@@ -7,7 +7,7 @@ public class EnemyIdleState : EnemyState
 
     private float idleTimer;
 
-    private float idleDuration =5f;
+    private float idleDuration =1.5f;
 
     public void Enter(EnemyScript Enemy)
     {
@@ -23,7 +23,6 @@ public class EnemyIdleState : EnemyState
 
     public void Update()
     {
-        Debug.Log("Update State Idle");
         Idel();
     }
 

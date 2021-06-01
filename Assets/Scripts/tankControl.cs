@@ -49,6 +49,8 @@ public class tankControl : MonoBehaviour
         {
            GameObject bullet = Instantiate(_bullet, new Vector2(_gunPOs.position.x, _gunPOs.position.y), transform.rotation);
            Destroy(bullet, 10f);
+           //Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), this.GetComponent<Collider2D>());
+           bullet.tag = "PlayerBull";
             if (Direction == Vector2.up)
             {
                 bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, bullSpeed), ForceMode2D.Impulse);
@@ -114,7 +116,7 @@ public class tankControl : MonoBehaviour
                 DirectionX = true;
                 if (DirectionX)
                 {
-                    transform.rotation = Quaternion.AngleAxis(360, Vector3.forward);
+                    transform.rotation = Quaternion.AngleAxis(0, Vector3.forward);
                     Direction = Vector2.up;
                 }
             }
