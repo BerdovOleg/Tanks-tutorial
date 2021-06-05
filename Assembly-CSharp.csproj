@@ -63,10 +63,12 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyState.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyScript.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMoveAndFireState.cs" />
-    <Compile Include="Assets\Scripts\tankControl.cs" />
+    <Compile Include="Assets\Scripts\Player\tankControl.cs" />
+    <Compile Include="Assets\testScipt.cs" />
     <Compile Include="Assets\Scripts\bullet.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyIdleState.cs" />
-    <Compile Include="Assets\testScipt.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHealthControl.cs" />
+    <Compile Include="Assets\Scripts\HealthControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -8,6 +8,7 @@ TagManager:
   - PlayerBull
   - EnemyBull
   - Enemy
+  - PlayerGun
   layers:
   - Default
   - TransparentFX

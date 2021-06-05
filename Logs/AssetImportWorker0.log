@@ -15,11 +15,11 @@ D:/Project/Development/Game/Unity/Tanks-tutorial
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58059
+51449
 Successfully changed project path to: D:/Project/Development/Game/Unity/Tanks-tutorial
 D:/Project/Development/Game/Unity/Tanks-tutorial
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 58.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,16 +35,1207 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004626 seconds.
+Registered in 0.003698 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 62.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.178 seconds
+- Completed reload, in  3.223 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001203 seconds.
+Registered in 0.001373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.578 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 2.925100 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.355600 ms  DeleteObjects: 0.184800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_bigRed.png
+  artifactKey: Guid(3d90f7312f87c9c4b900ea5e99ec1d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_bigRed.png using Guid(3d90f7312f87c9c4b900ea5e99ec1d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2600bee578405b70e2dd035e5ed64512') in 0.166177 seconds
+  Import took 0.172227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_huge.png
+  artifactKey: Guid(fa653a2def2e9204d87a558c967bbddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_huge.png using Guid(fa653a2def2e9204d87a558c967bbddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1c97f046df422735e41113a77737ea') in 0.025636 seconds
+  Import took 0.031349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body
+  artifactKey: Guid(ea80a18a03b16114bbd4324878721edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body using Guid(ea80a18a03b16114bbd4324878721edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569fadb7803005c1fc618d8765cd799f') in 0.009327 seconds
+  Import took 0.014254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_blue.png
+  artifactKey: Guid(c5e821d179830a647b2c74041cc68eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_blue.png using Guid(c5e821d179830a647b2c74041cc68eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d77815617c6d1b6279579050a22787') in 0.019496 seconds
+  Import took 0.023781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_green_outline.png
+  artifactKey: Guid(724c422c95f8e7147b579ef4371bbba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_green_outline.png using Guid(724c422c95f8e7147b579ef4371bbba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75b1437d8a6768d2c52f377d55b26d8') in 0.022409 seconds
+  Import took 0.027498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_sand.png
+  artifactKey: Guid(74a42be2b08723545a787edf4b0a2798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_sand.png using Guid(74a42be2b08723545a787edf4b0a2798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c154563e8c068da02fa570945088321f') in 0.030935 seconds
+  Import took 0.035513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_dark_outline.png
+  artifactKey: Guid(dc02cd1eac159964aa4120ff0ca38132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_dark_outline.png using Guid(dc02cd1eac159964aa4120ff0ca38132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be3971872e5572f3b2b4c925d2552df') in 0.049225 seconds
+  Import took 0.053240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_dark.png
+  artifactKey: Guid(e3a7bcd7741d303489305b10c0827e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_dark.png using Guid(e3a7bcd7741d303489305b10c0827e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86c00de0d5160c939d2456781b36c45') in 0.015834 seconds
+  Import took 0.020082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_blue_outline.png
+  artifactKey: Guid(790b478106d4cfd4c87da2c3323f2b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_blue_outline.png using Guid(790b478106d4cfd4c87da2c3323f2b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728cc39541bbdd422eb814d373eac9e') in 0.018343 seconds
+  Import took 0.022360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_sand_outline.png
+  artifactKey: Guid(87419c40e8061914d85da58a58f18141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_sand_outline.png using Guid(87419c40e8061914d85da58a58f18141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4510579064a9132cb1e2bf557c985fd') in 0.037722 seconds
+  Import took 0.041578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_darkLarge_outline.png
+  artifactKey: Guid(cb86cdb9be4a1d44688c21f5ee4441e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_darkLarge_outline.png using Guid(cb86cdb9be4a1d44688c21f5ee4441e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9f0592aa84b53db0dc277e843085fe') in 0.027916 seconds
+  Import took 0.031829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_red_outline.png
+  artifactKey: Guid(42408b82c0b857f4888ea63a006a4205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_red_outline.png using Guid(42408b82c0b857f4888ea63a006a4205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731430c19d723c30902a7a2cd95220e4') in 0.019325 seconds
+  Import took 0.023158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_green.png
+  artifactKey: Guid(52e29ed117f2ee144a2e116549e5d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_green.png using Guid(52e29ed117f2ee144a2e116549e5d7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3d465673aa0d0c026d73107299cd12') in 0.016347 seconds
+  Import took 0.020879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sprite/tanks/Constructor
+  artifactKey: Guid(507518ec5e4c322448488a0a5e32ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor using Guid(507518ec5e4c322448488a0a5e32ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35b5d7278977ee1688362d3481699a2') in 0.008346 seconds
+  Import took 0.012692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_huge_outline.png
+  artifactKey: Guid(a6c42dab79b7ae94ca59d02cf971ea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_huge_outline.png using Guid(a6c42dab79b7ae94ca59d02cf971ea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb1f5d643f8ae7a0ce03995962c795c') in 0.021647 seconds
+  Import took 0.025872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_bigRed_outline.png
+  artifactKey: Guid(ada06ff7d81f75540881956b09926be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_bigRed_outline.png using Guid(ada06ff7d81f75540881956b09926be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f90ad7afa8bf72e887d7c7b4d3f8731') in 0.023135 seconds
+  Import took 0.027320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_darkLarge.png
+  artifactKey: Guid(90a1192d402b03c4182efdeb931186f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_darkLarge.png using Guid(90a1192d402b03c4182efdeb931186f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8cccd6319f5f75cc22bcdc1a1fb490') in 0.023855 seconds
+  Import took 0.028390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sprite/tanks/Constructor/Body/tankBody_red.png
+  artifactKey: Guid(8c586712d75f98a4c8fd65dd8e5189f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Body/tankBody_red.png using Guid(8c586712d75f98a4c8fd65dd8e5189f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ed4de8d7201eca0c4dead79f23b5ec') in 0.016975 seconds
+  Import took 0.021639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.307504 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun
+  artifactKey: Guid(a15b763a9b5b2354ca1877b8b2741f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun using Guid(a15b763a9b5b2354ca1877b8b2741f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7696d2675791861185492f0b9ccb6f61') in 0.009728 seconds
+  Import took 0.014119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001540 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun
+  artifactKey: Guid(a15b763a9b5b2354ca1877b8b2741f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun using Guid(a15b763a9b5b2354ca1877b8b2741f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7696d2675791861185492f0b9ccb6f61') in 0.003010 seconds
+  Import took 0.007296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061920 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1.png
+  artifactKey: Guid(d154a3992b7928941aaed67069988308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1.png using Guid(d154a3992b7928941aaed67069988308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3184306b13e30f4aaf7cf1e77d3eb7fd') in 0.275598 seconds
+  Import took 0.279625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel1_outline.png
+  artifactKey: Guid(629c5668bd77e474296e45f2c3a306d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel1_outline.png using Guid(629c5668bd77e474296e45f2c3a306d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe636f43bdf81246bdfaa2f19b6aa54a') in 0.036436 seconds
+  Import took 0.040754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel3.png
+  artifactKey: Guid(4ce62d1dcdc56bf40b8d5ae00b4dc0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel3.png using Guid(4ce62d1dcdc56bf40b8d5ae00b4dc0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5e8d382d790ef1cb84456fdd2c51c9') in 0.070093 seconds
+  Import took 0.074957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1.png
+  artifactKey: Guid(d154a3992b7928941aaed67069988308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1.png using Guid(d154a3992b7928941aaed67069988308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3184306b13e30f4aaf7cf1e77d3eb7fd') in 0.014969 seconds
+  Import took 0.019395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel2_outline.png
+  artifactKey: Guid(741b0fd068c23504eb34bb14cfddb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel2_outline.png using Guid(741b0fd068c23504eb34bb14cfddb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bc7b3b6880339766fd6454a1ff313d') in 0.048481 seconds
+  Import took 0.052949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3_outline.png
+  artifactKey: Guid(bbba46cc9e767934ca29aafb21fb3c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3_outline.png using Guid(bbba46cc9e767934ca29aafb21fb3c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491d870fe0bd594ad65ac1e7d49ba12e') in 0.038569 seconds
+  Import took 0.043003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel2_outline.png
+  artifactKey: Guid(78e47d799ccc7b94ea2794b1b354af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel2_outline.png using Guid(78e47d799ccc7b94ea2794b1b354af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59845b6ea806e9defced5b182b244523') in 0.064631 seconds
+  Import took 0.068583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1_outline.png
+  artifactKey: Guid(57d045b24f8f7b34ba402b12574615c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1_outline.png using Guid(57d045b24f8f7b34ba402b12574615c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8c09d4246ae4660883b7967d7cda62') in 0.036845 seconds
+  Import took 0.042014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel1_outline.png
+  artifactKey: Guid(24c6ec1f49d04ec4c9a8cc400d855767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel1_outline.png using Guid(24c6ec1f49d04ec4c9a8cc400d855767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16947ef6b2b77eb83513152c807cc3d') in 0.047540 seconds
+  Import took 0.053303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel1.png
+  artifactKey: Guid(6971be8ff3f695e409bbae18c88276b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel1.png using Guid(6971be8ff3f695e409bbae18c88276b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74bda35ec14ae144cc9b08bd0370b79') in 0.060624 seconds
+  Import took 0.064204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel1_outline.png
+  artifactKey: Guid(5cf640ce92e9e6d43bb2d8e97039bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel1_outline.png using Guid(5cf640ce92e9e6d43bb2d8e97039bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a12bea439bb4ee27fe777fba421994') in 0.069917 seconds
+  Import took 0.073572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel1.png
+  artifactKey: Guid(48e413e3ba42db1468d60b1d49e80861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel1.png using Guid(48e413e3ba42db1468d60b1d49e80861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbbccddc8f39e702fcfa71359664e27') in 0.124225 seconds
+  Import took 0.127815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3.png
+  artifactKey: Guid(5b87c54302446b7429d1d7132d8dc6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3.png using Guid(5b87c54302446b7429d1d7132d8dc6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6747f5145cb0e0e43457cf04677a35d') in 0.028640 seconds
+  Import took 0.032479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel2_outline.png
+  artifactKey: Guid(58dfcfe37738ac14f998ffcfac2e4e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel2_outline.png using Guid(58dfcfe37738ac14f998ffcfac2e4e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d06dc3b3210ea51151d23eadc01a58') in 0.029549 seconds
+  Import took 0.033370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel2.png
+  artifactKey: Guid(51716f2fc837eaa4d9ae663e047568b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel2.png using Guid(51716f2fc837eaa4d9ae663e047568b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092f4c9ad6c076a936ab9e13819a7359') in 0.057444 seconds
+  Import took 0.061468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel3_outline.png
+  artifactKey: Guid(1dcd7b44df0677f4ca587c45010634e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel3_outline.png using Guid(1dcd7b44df0677f4ca587c45010634e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43dfb53f56f8adfaaf8bc13f9c183a1') in 0.031401 seconds
+  Import took 0.035614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png
+  artifactKey: Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png using Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4c031fbcb02e242d3b29f69d427db') in 0.048076 seconds
+  Import took 0.051936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel3.png
+  artifactKey: Guid(970c5ee875ba7904ba96db57a69fde56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel3.png using Guid(970c5ee875ba7904ba96db57a69fde56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea44bcc4ebb598313718eec5f349cf5') in 0.028525 seconds
+  Import took 0.032251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel2.png
+  artifactKey: Guid(40487ace066ff3a4289c7d6525582d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel2.png using Guid(40487ace066ff3a4289c7d6525582d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edf1f5aacb97dbaf0a0247d8c242ee9') in 0.061351 seconds
+  Import took 0.065369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel1.png
+  artifactKey: Guid(6fafd0fb349555542922fb5efb765d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel1.png using Guid(6fafd0fb349555542922fb5efb765d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7cdf18690edf58b50ec1eb7a9021d4') in 0.061337 seconds
+  Import took 0.064957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel2.png
+  artifactKey: Guid(628cbbff668eee547aa339b5e6c75883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel2.png using Guid(628cbbff668eee547aa339b5e6c75883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ca81eac406232ecf71b5567b966a74') in 0.057677 seconds
+  Import took 0.061285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2_outline.png
+  artifactKey: Guid(a8eeef9d8ca22154a8db997958c0a64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2_outline.png using Guid(a8eeef9d8ca22154a8db997958c0a64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b4c6ebadb1c0624c6056d4d25f08a1') in 0.040467 seconds
+  Import took 0.044015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel3_outline.png
+  artifactKey: Guid(cbfbc8ce8b841ba45918ab064e2b9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel3_outline.png using Guid(cbfbc8ce8b841ba45918ab064e2b9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234cefed81d923429911cd9d378fb711') in 0.031759 seconds
+  Import took 0.035347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3.png
+  artifactKey: Guid(b648eb6d31da8a643b6e61d6d29fd46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3.png using Guid(b648eb6d31da8a643b6e61d6d29fd46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e7f3e0b76e3148a0449e7d4704d877') in 0.027276 seconds
+  Import took 0.031258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2.png
+  artifactKey: Guid(5444b05fe66874f4d9f9c4e6454d8bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2.png using Guid(5444b05fe66874f4d9f9c4e6454d8bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e7c3a0d434e9265c419fd070b9691a') in 0.024862 seconds
+  Import took 0.028534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.124801 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png
+  artifactKey: Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png using Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702aab09074b5312ce83a14642a2f115') in 0.011625 seconds
+  Import took 0.016017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027444 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png
+  artifactKey: Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png using Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702aab09074b5312ce83a14642a2f115') in 0.012963 seconds
+  Import took 0.017471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.437725 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png
+  artifactKey: Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png using Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6fc55d2d7ecc7520c6071e11240f60') in 0.031398 seconds
+  Import took 0.037367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003723 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png
+  artifactKey: Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png using Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6fc55d2d7ecc7520c6071e11240f60') in 0.011988 seconds
+  Import took 0.016050 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001188 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 2.546300 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.093100 ms  DeleteObjects: 0.163900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 2.592500 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.105900 ms  DeleteObjects: 0.170300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 369.997842 seconds.
+  path: Assets/Scripts/Player/tankControl.cs
+  artifactKey: Guid(55b7f5c543fb1d444ba0d747a8578eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/tankControl.cs using Guid(55b7f5c543fb1d444ba0d747a8578eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0dddad10f298e7a4f486a773f9b346') in 0.019535 seconds
+  Import took 0.023836 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.658 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 2.891500 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.081700 ms MarkObjects: 2.360700 ms  DeleteObjects: 0.169800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.565111 seconds.
+  path: Assets/Scripts/Player/tankControl.cs
+  artifactKey: Guid(55b7f5c543fb1d444ba0d747a8578eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/tankControl.cs using Guid(55b7f5c543fb1d444ba0d747a8578eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337bea273cc2b7985cbe087cc98f5437') in 0.006223 seconds
+  Import took 0.010295 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.551 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 2.579400 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.084500 ms MarkObjects: 2.103700 ms  DeleteObjects: 0.169300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 3.268400 ms (FindLiveObjects: 0.228700 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.744000 ms  DeleteObjects: 0.211000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 298.522570 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel1_outline.png
+  artifactKey: Guid(629c5668bd77e474296e45f2c3a306d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel1_outline.png using Guid(629c5668bd77e474296e45f2c3a306d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0914ecb0f514d46e639ef04b80e9177a') in 0.098336 seconds
+  Import took 0.102621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel3.png
+  artifactKey: Guid(4ce62d1dcdc56bf40b8d5ae00b4dc0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel3.png using Guid(4ce62d1dcdc56bf40b8d5ae00b4dc0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2cd1733e64f8820c3ab5164244007f') in 0.019474 seconds
+  Import took 0.023758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel2_outline.png
+  artifactKey: Guid(741b0fd068c23504eb34bb14cfddb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel2_outline.png using Guid(741b0fd068c23504eb34bb14cfddb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5de6d59da802dc59efbb4bf5338df9') in 0.017417 seconds
+  Import took 0.021271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3_outline.png
+  artifactKey: Guid(bbba46cc9e767934ca29aafb21fb3c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3_outline.png using Guid(bbba46cc9e767934ca29aafb21fb3c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855ba7a188d97ab71dc8d0e308c3f014') in 0.016663 seconds
+  Import took 0.020561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel3_outline.png
+  artifactKey: Guid(53976a423722dac4cb9b92c65c2b366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel3_outline.png using Guid(53976a423722dac4cb9b92c65c2b366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2912fcd11208c11dea7a9805ee7ac25') in 0.031236 seconds
+  Import took 0.036878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel2_outline.png
+  artifactKey: Guid(78e47d799ccc7b94ea2794b1b354af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel2_outline.png using Guid(78e47d799ccc7b94ea2794b1b354af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a321469d9786011aebf6644424382ec4') in 0.019222 seconds
+  Import took 0.023266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1_outline.png
+  artifactKey: Guid(57d045b24f8f7b34ba402b12574615c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1_outline.png using Guid(57d045b24f8f7b34ba402b12574615c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a78ef231b8f2ecfbe4a6859af3ea24') in 0.024315 seconds
+  Import took 0.028159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel1_outline.png
+  artifactKey: Guid(24c6ec1f49d04ec4c9a8cc400d855767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel1_outline.png using Guid(24c6ec1f49d04ec4c9a8cc400d855767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4b137c1c0887524380a95432ded6d5') in 0.012618 seconds
+  Import took 0.016477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel1.png
+  artifactKey: Guid(6971be8ff3f695e409bbae18c88276b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel1.png using Guid(6971be8ff3f695e409bbae18c88276b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c35350e16e3c321a14e533ee04ad82') in 0.017463 seconds
+  Import took 0.022641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel1_outline.png
+  artifactKey: Guid(5cf640ce92e9e6d43bb2d8e97039bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel1_outline.png using Guid(5cf640ce92e9e6d43bb2d8e97039bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395c2e3c84052b3719ba30a901d2fb35') in 0.015909 seconds
+  Import took 0.020627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel1.png
+  artifactKey: Guid(48e413e3ba42db1468d60b1d49e80861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel1.png using Guid(48e413e3ba42db1468d60b1d49e80861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5243443a38af0072b1344c20b727e402') in 0.011669 seconds
+  Import took 0.015743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3.png
+  artifactKey: Guid(5b87c54302446b7429d1d7132d8dc6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3.png using Guid(5b87c54302446b7429d1d7132d8dc6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0c5fe655f55cb3999ce7621fba8fa3') in 0.016960 seconds
+  Import took 0.021351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel1.png
+  artifactKey: Guid(3b5378bb7df85ae42a5710103cb63ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel1.png using Guid(3b5378bb7df85ae42a5710103cb63ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eba9f4c7845620df57c42dfa66d29d') in 0.019402 seconds
+  Import took 0.023225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel2_outline.png
+  artifactKey: Guid(58dfcfe37738ac14f998ffcfac2e4e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel2_outline.png using Guid(58dfcfe37738ac14f998ffcfac2e4e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92b88ecd9d2867e9250605db334bf24') in 0.017346 seconds
+  Import took 0.021370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel2.png
+  artifactKey: Guid(51716f2fc837eaa4d9ae663e047568b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel2.png using Guid(51716f2fc837eaa4d9ae663e047568b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b850307a44512a5f4d07c13dccfaf4') in 0.021318 seconds
+  Import took 0.025259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel3_outline.png
+  artifactKey: Guid(1dcd7b44df0677f4ca587c45010634e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel3_outline.png using Guid(1dcd7b44df0677f4ca587c45010634e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c38a288774bed261e9b7fbdf461074e') in 0.018831 seconds
+  Import took 0.022579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1.png
+  artifactKey: Guid(d154a3992b7928941aaed67069988308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel1.png using Guid(d154a3992b7928941aaed67069988308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d33278c9a0d90011c8989ad4e0899c') in 0.016979 seconds
+  Import took 0.022489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel3.png
+  artifactKey: Guid(970c5ee875ba7904ba96db57a69fde56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel3.png using Guid(970c5ee875ba7904ba96db57a69fde56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4fc362bf7d773378b5d67a9b47710f') in 0.017303 seconds
+  Import took 0.021733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png
+  artifactKey: Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel3_outline.png using Guid(e912b04fb5d1e2345ac0fbeb48581bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660de5e028e0f8a3bc82af0cda37ce84') in 0.016479 seconds
+  Import took 0.020565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel2.png
+  artifactKey: Guid(40487ace066ff3a4289c7d6525582d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel2.png using Guid(40487ace066ff3a4289c7d6525582d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ac1846c82263980e5d3b063cf97dd3') in 0.019273 seconds
+  Import took 0.023620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel1.png
+  artifactKey: Guid(6fafd0fb349555542922fb5efb765d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankGreen_barrel1.png using Guid(6fafd0fb349555542922fb5efb765d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4079b88a8627d4309eb37c33dff4d73a') in 0.014765 seconds
+  Import took 0.018527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel2.png
+  artifactKey: Guid(628cbbff668eee547aa339b5e6c75883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel2.png using Guid(628cbbff668eee547aa339b5e6c75883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde16ffb18b5df6e05bf54b7b442dfd9') in 0.015222 seconds
+  Import took 0.018951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2_outline.png
+  artifactKey: Guid(a8eeef9d8ca22154a8db997958c0a64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2_outline.png using Guid(a8eeef9d8ca22154a8db997958c0a64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c90b38f5b5316aee24f88a256f33406') in 0.023606 seconds
+  Import took 0.027507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel3_outline.png
+  artifactKey: Guid(cbfbc8ce8b841ba45918ab064e2b9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankRed_barrel3_outline.png using Guid(cbfbc8ce8b841ba45918ab064e2b9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b33a66767ab4e2ecec07c006b3ec95c') in 0.013256 seconds
+  Import took 0.017000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel3.png
+  artifactKey: Guid(708264ffbcdee1340add016de6ca8c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel3.png using Guid(708264ffbcdee1340add016de6ca8c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3ef3ac41164d848b2fe0573149fa4e') in 0.019299 seconds
+  Import took 0.023686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3.png
+  artifactKey: Guid(b648eb6d31da8a643b6e61d6d29fd46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3.png using Guid(b648eb6d31da8a643b6e61d6d29fd46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ae932f3fd5c68042ca68f392f8732c') in 0.019237 seconds
+  Import took 0.023530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2.png
+  artifactKey: Guid(5444b05fe66874f4d9f9c4e6454d8bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2.png using Guid(5444b05fe66874f4d9f9c4e6454d8bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3231287c107e3e9cd4a45cfd6f1133') in 0.020977 seconds
+  Import took 0.024883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3.png
+  artifactKey: Guid(b648eb6d31da8a643b6e61d6d29fd46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankDark_barrel3.png using Guid(b648eb6d31da8a643b6e61d6d29fd46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ae932f3fd5c68042ca68f392f8732c') in 0.046889 seconds
+  Import took 0.050919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2.png
+  artifactKey: Guid(5444b05fe66874f4d9f9c4e6454d8bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankSand_barrel2.png using Guid(5444b05fe66874f4d9f9c4e6454d8bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3231287c107e3e9cd4a45cfd6f1133') in 0.012890 seconds
+  Import took 0.017303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.400939 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel1_outline.png
+  artifactKey: Guid(ab5cc5c2a5840a04e8a71c1f2703b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel1_outline.png using Guid(ab5cc5c2a5840a04e8a71c1f2703b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3362bce43a2634160abd26dd548c1a') in 0.079281 seconds
+  Import took 0.084636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000738 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel5.png
+  artifactKey: Guid(70a1080b1c2b45942bdb8415295b6333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel5.png using Guid(70a1080b1c2b45942bdb8415295b6333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5747e78562b97eb9a302d6508b4eb5') in 0.065848 seconds
+  Import took 0.075325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel5_outline.png
+  artifactKey: Guid(45ab55b1b7e5078408156620241c1506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel5_outline.png using Guid(45ab55b1b7e5078408156620241c1506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657cea798df75d3a41e8bbf9f1a9d5e8') in 0.027982 seconds
+  Import took 0.035382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel6_outline.png
+  artifactKey: Guid(cd8e016da0db3c0438cab867d47f6dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel6_outline.png using Guid(cd8e016da0db3c0438cab867d47f6dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96adfc0285f7eeea4c9579b3955b906') in 0.022853 seconds
+  Import took 0.027375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel3_outline.png
+  artifactKey: Guid(feb378d0338897348ad0366ad4af37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel3_outline.png using Guid(feb378d0338897348ad0366ad4af37a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fd1d602fece301e06370040f3c0ca6') in 0.028223 seconds
+  Import took 0.032402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel7.png
+  artifactKey: Guid(27054daca3661d040b3ddf36ce404465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel7.png using Guid(27054daca3661d040b3ddf36ce404465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80eedf3e08cdf61067bdcc67a0e03cf0') in 0.023797 seconds
+  Import took 0.027866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel2.png
+  artifactKey: Guid(bed3b6e69e55aef419a894692510a994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel2.png using Guid(bed3b6e69e55aef419a894692510a994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e5719efa58e0a084f15f71c30e2184') in 0.020532 seconds
+  Import took 0.026817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel2.png
+  artifactKey: Guid(07adcc511f84af145a3091825378e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel2.png using Guid(07adcc511f84af145a3091825378e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4f24d9e7a95fcdd6a100d5289f7da3') in 0.046457 seconds
+  Import took 0.056390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001623 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel2_outline.png
+  artifactKey: Guid(047f5f4a6444f5d459d9f3478ec16e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel2_outline.png using Guid(047f5f4a6444f5d459d9f3478ec16e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25f882af157303538f308d721ccfedc') in 0.024300 seconds
+  Import took 0.030725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel2.png
+  artifactKey: Guid(07adcc511f84af145a3091825378e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel2.png using Guid(07adcc511f84af145a3091825378e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4f24d9e7a95fcdd6a100d5289f7da3') in 0.012714 seconds
+  Import took 0.018264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel2_outline.png
+  artifactKey: Guid(047f5f4a6444f5d459d9f3478ec16e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel2_outline.png using Guid(047f5f4a6444f5d459d9f3478ec16e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25f882af157303538f308d721ccfedc') in 0.013888 seconds
+  Import took 0.018074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel6.png
+  artifactKey: Guid(84c29346e3bd35540a24b20570648add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel6.png using Guid(84c29346e3bd35540a24b20570648add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c3301cf36ac89a56d8d84bebe38caf') in 0.017284 seconds
+  Import took 0.021021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel4.png
+  artifactKey: Guid(aae4fb0abce30df408addd656e31a82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel4.png using Guid(aae4fb0abce30df408addd656e31a82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019a053f86bb359d579664faa6f658aa') in 0.020573 seconds
+  Import took 0.025451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel4_outline.png
+  artifactKey: Guid(eeb3e44af839b534a8738d8999271122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel4_outline.png using Guid(eeb3e44af839b534a8738d8999271122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41cfbf459329fe13a4cef13148671fa') in 0.019244 seconds
+  Import took 0.023447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel7_outline.png
+  artifactKey: Guid(0ab78a512d15e3346ae9066451cd36b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel7_outline.png using Guid(0ab78a512d15e3346ae9066451cd36b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b36eefd5e247db2baeb367b0e64481b') in 0.019371 seconds
+  Import took 0.023477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/specialBarrel3.png
+  artifactKey: Guid(091bb1f4fe7d98d47ae7610417c333f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/specialBarrel3.png using Guid(091bb1f4fe7d98d47ae7610417c333f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0f7b68bfec8459aa74b847d55a867a') in 0.043000 seconds
+  Import took 0.059240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004453 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel1_outline.png
+  artifactKey: Guid(260bd2242df428c49aa40dd2e2284579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel1_outline.png using Guid(260bd2242df428c49aa40dd2e2284579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1302067530306ac9a02e71ea110999bf') in 0.019725 seconds
+  Import took 0.024647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel1.png
+  artifactKey: Guid(ce493fc801fb14f4180835576b199f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel1.png using Guid(ce493fc801fb14f4180835576b199f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ef0f4e622f5a9d8c3a4326b0aa9e99') in 0.021679 seconds
+  Import took 0.026858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel2_outline.png
+  artifactKey: Guid(900d8a883a407bb479405aa23250ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/tanks/Constructor/Gun/tankBlue_barrel2_outline.png using Guid(900d8a883a407bb479405aa23250ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5671fe0c9eddff95b5d30ea078c775b7') in 0.018897 seconds
+  Import took 0.024781 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.534 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 2.790600 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.278700 ms  DeleteObjects: 0.161000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 2.635900 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.080400 ms MarkObjects: 2.172200 ms  DeleteObjects: 0.155300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.455 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 3.393100 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.842500 ms  DeleteObjects: 0.213700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.476 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 2.904900 ms (FindLiveObjects: 0.223100 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.428200 ms  DeleteObjects: 0.173300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 2.913700 ms (FindLiveObjects: 0.253100 ms CreateObjectMapping: 0.085000 ms MarkObjects: 2.402700 ms  DeleteObjects: 0.171200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2361.
+Total: 2.616700 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.135300 ms  DeleteObjects: 0.165600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 3.446300 ms (FindLiveObjects: 0.694100 ms CreateObjectMapping: 0.107300 ms MarkObjects: 2.472100 ms  DeleteObjects: 0.171100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 3.036700 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.093100 ms MarkObjects: 2.538000 ms  DeleteObjects: 0.165300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 2.682100 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.177000 ms  DeleteObjects: 0.170300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.419 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 3.007300 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.513800 ms  DeleteObjects: 0.165200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002027 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2381.
+Total: 3.898600 ms (FindLiveObjects: 0.484800 ms CreateObjectMapping: 0.175800 ms MarkObjects: 3.062700 ms  DeleteObjects: 0.173000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.734 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 2.921200 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.407500 ms  DeleteObjects: 0.157700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.571 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2389.
+Total: 2.793700 ms (FindLiveObjects: 0.237800 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.293500 ms  DeleteObjects: 0.173200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2393.
+Total: 3.192100 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.684100 ms  DeleteObjects: 0.166700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
